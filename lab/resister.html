@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>실습1(1004)</title>
+</head>
+<body>
+<h1>취업 정보 계정 만들기</h1>
+* 필수 입력 항목<br><br>
+
+이름* <input type="text" maxlength="8"><br>
+이메일*  <input type="email"
+         placeholder=" id@domain_name"
+         maxlength="15"> <br>
+암호* <input type="password" maxlength="12"><br>
+암호확인* <input type="password" maxlength="12"><br>
+모바일 폰* <input type="tell"  placeholder="010-0000-0000" maxlengthe="13"><br>
+개인홈페이지* <input type="url" placeholder="http://" maxlength="30"><br>
+주소* <input type="text" maxlength="30"> <br><br>
+
+학력<br>
+학교 명* <input type="text" size="8" maxlength="12"><br>
+전 공<input type="text" size="8"><br>
+졸업여부*
+<select>
+  <option value="---선택---">---선택---</option>
+  <option value="졸업예정">졸업예정</option>
+  <option value="졸업">졸업</option>
+</select> <br>
+졸업 (예정)일  <input type="date"
+         id="date"
+         max="2023-10-30"
+         min="2023-10-01"
+         value="2023-10-01"><br>
+근무업체명 <input type="text"maxlength="20"> <br>
+직위 <input type="text" maxlength="10"> <br>
+담당 업무 <textarea cols="80" rows="10"></textarea><br>
+근무 년수 <input type="number" min="0.0" max="10.0" step="0.5"><br><br>
+자기소개서 <br><br>
+첨부파일 <input type="file"><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="제출" /> <input type="reset" value="재작성" />
+
+
+</body>
+</html>
