@@ -10,31 +10,10 @@
             padding-left:10px;}
         #div1{
             margin-left:8px;
-            text-align: right;
+             text-align: right;
             width:300px;
             padding-right:8px}
-        #div2{
-            margin-left:8px;
-            text-align: right;
-            width:220px;
-            padding-right:8px}
-        #div3{
-            margin-left:8px;
-            text-align: right;
-            width:300px;
-            padding-right:8px}
-        #div4{
-            margin-left:8px;
-            text-align: right;
-            display: inline-block;
-            width:585px;
-            padding-right:8px}
-        #div5{
-            margin-left:8px;
-            text-align: right;
-            width:230px;
-            padding-right:8px}
-        #div6{margin-left:200px;}
+        #div2{margin-left:200px;}
         #p2{color:red;}
     </style>
 </head>
@@ -45,22 +24,22 @@
 <p style="color:red; font-size:10px;"> * 필수 입력 항목 </p>
 
 <p id="p1">기본 정보</p>
-    <div id="div1">
-        이름* <input type="text" maxlength="8"><br>
+    <div id = "div1">
+이름* <input type="text" maxlength="8"><br>
 이메일*  <input type="email"
          placeholder=" id@domain_name"
-         maxlength="15"><br>
+         maxlength="15"> <br>
 암호* <input type="password" maxlength="12"><br>
 암호확인* <input type="password" maxlength="12"><br>
-모바일 폰* <input type="tell"  placeholder="010-0000-0000" maxlength="13"><br>
+모바일 폰* <input type="tell"  placeholder="010-0000-0000" maxlengthe="13"><br>
 개인홈페이지* <input type="url" placeholder="http://" maxlength="30"><br>
 주소* <input type="text" maxlength="30"> <br><br>
 
 </div>
     <p id="p1">학 력</p>
-    <div id = "div2">
+    <div id = "div1">
 학교 명* <input type="text" size="8" maxlength="12"><br>
-전 공* <input type="text" size="8"><br>
+전 공<input type="text" size="8"><br>
 졸업여부*
 <select>
   <option value="---선택---">---선택---</option>
@@ -74,23 +53,17 @@
          value="2023-10-01"><br>
         </div>
     <p id="p1">업무 경력</p>
-    <div id = "div3">
+    <div id = "div1">
     근무업체명 <input type="text"maxlength="20"> <br>
-    직위 <input type="text" maxlength="10"> <br><br>
-    </div>
-    <div id="div4">
-        담당 업무
-<textarea cols="60" rows="10"></textarea><br>
-    </div>
-    <div id="div5">
-근무 년수 <input type="number" min="0.0" max="10.0" step="0.5"> 년<br><br>
-    </div>
+직위 <input type="text" maxlength="10"> <br>
+<textarea cols="80" rows="10"></textarea><br>담당 업무 <br>
+근무 년수 <input type="number" min="0.0" max="10.0" step="0.5"><br><br>
+        </div>
     <p id="p1">자기소개서</p> <br><br>
-첨부파일 <input type="file"><br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <div id = "div6">
+첨부파일<input type="file"><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <div id = "div2">
     &nbsp;&nbsp;<input type="submit" value="제출" /> <input type="reset" value="재작성" />
     </div>
 
 </form>
 </body>
-</html>
